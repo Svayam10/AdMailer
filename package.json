@@ -1,0 +1,20 @@
+{
+  "name": "admailer",
+  "version": "1.0.0",
+  "description": "Email marketing tool with dynamic personalization",
+  "main": "send_emails.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node send_emails.js",
+    "dev": "node send_emails.js"
+  },
+  "keywords": ["email", "marketing", "automation"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "nodemailer": "^6.9.7",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {}
+}
